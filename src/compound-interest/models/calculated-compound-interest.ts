@@ -5,5 +5,5 @@ export interface CalculatedCompoundInterest {
   investmentValue: number;
   totalEarnings: number;
 
-  monthlyEarnings: MonthlyEarnings[]
+  monthlyEarnings: MonthlyEarnings[];
 }

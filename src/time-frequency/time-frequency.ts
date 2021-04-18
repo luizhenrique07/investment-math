@@ -1,4 +1,4 @@
 export enum TimeFrequency {
   monthly = "monthly",
-  annually = "annually"
+  annually = "annually",
 }
