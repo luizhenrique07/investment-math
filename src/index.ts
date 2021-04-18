@@ -1,3 +1,2 @@
-export const LibTest = (val1: number, val2: number) => {
-  return val1 + val2;
-};
+export { calculateCompoundInterest } from './compound-interest/compound-interest'
+export { futureValue } from './future-value/future-value'

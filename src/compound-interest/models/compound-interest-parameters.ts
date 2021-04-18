@@ -1,12 +1,15 @@
-import { TimeFrequency } from "../../time-frequency/time-frequency";
+import { TimeInterval } from '../../models/time-interval/time-interval'
 
 export interface CompoundInterestParameters {
-  initialAmount: number;
-  interestRate: number;
-  frequentDeposit: number;
+  initialAmount: number
+  /**
+   * Percentage of how much te investment will
+   */
+  interestRate: number
+  frequentDeposit: number
 
-  investmentDuration: number;
+  investmentDuration: number
 
-  interestRateFrequency: TimeFrequency | "monthly" | "annually";
-  investmentDurationFrequency: TimeFrequency | "monthly" | "annually";
+  interestRateInterval: TimeInterval | 'monthly' | 'annually'
+  investmentDurationInterval: TimeInterval | 'monthly' | 'annually'
 }

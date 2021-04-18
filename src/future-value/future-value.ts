@@ -3,6 +3,6 @@ export const futureValue = (
   rate: number,
   time: number
 ) => {
-  const x = 1 + rate / 100;
-  return presentValue * Math.pow(x, time);
-};
+  const x = 1 + rate / 100
+  return presentValue * Math.pow(x, time)
+}

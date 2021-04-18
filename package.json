@@ -4,15 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config ./jest.config.json",
+    "test": "jest --config ./jest.config.json --coverage",
     "build": "tsc",
-    "lint": "tslint -p tsconfig.json",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "prepare": "npm run build"
   },
   "jest": "./jest.config.json",
   "repository": {
