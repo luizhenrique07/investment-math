@@ -1,6 +1,6 @@
 import { calculateCompoundInterest } from '../../compound-interest/compound-interest'
 import { CompoundInterestParameters } from '../../compound-interest/models/compound-interest-parameters'
-import { TimeInterval } from '../../time-interval/time-interval'
+import { TimeInterval } from '../../models/time-interval/time-interval'
 
 test('CalculateCompoundInterest', () => {
   const compoundInterestParameters: CompoundInterestParameters = {
