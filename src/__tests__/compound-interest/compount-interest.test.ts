@@ -12,8 +12,6 @@ test("CalculateCompoundInterest", () => {
     investmentDurationFrequency: TimeFrequency.monthly,
   };
 
-  console.log(calculateCompoundInterest(compoundInterestParameters));
-
   const totalAmount = calculateCompoundInterest(compoundInterestParameters)
     .totalValue;
   let totalAmountRounded = Math.round(totalAmount * 100) / 100;
