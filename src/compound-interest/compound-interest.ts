@@ -5,7 +5,7 @@ import { CompoundInterestParameters } from './models/compound-interest-parameter
 import { MonthlyEarnings } from './models/monthly-earnings'
 
 /**
- * Calculate a compound interest investment with constant deposits
+ * Calculate a compound interest of a investment with constant deposits
  */
 export const calculateCompoundInterest = (
   data: CompoundInterestParameters
