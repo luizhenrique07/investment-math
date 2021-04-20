@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "jest --config ./jest.config.json --coverage",
     "build": "tsc",
