@@ -6,7 +6,7 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["investment","math", "investment-math", "compound-interesting", "futureValue"],
+  "keywords": ["investment","math", "investment-math", "compound-interesting", "future-value"],
   "scripts": {
     "test": "jest --config ./jest.config.json --coverage",
     "build": "tsc",
