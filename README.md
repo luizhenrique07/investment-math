@@ -2,7 +2,13 @@
 
 A node.js package to solve investment calculations.
 
-## Functions
+## Installation
+
+`
+npm i investment-math
+`
+
+## Usage
 
 ### Calculate Compound Interest
 
